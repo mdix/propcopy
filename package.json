@@ -1,0 +1,38 @@
+{
+  "name": "propcopy",
+  "description": "Point separated string to object properties (+ value)",
+  "version": "0.1.0",
+  "homepage": "http://marcdix.de",
+  "author": {
+    "name": "Marc Dix",
+    "email": "marcdix@marcdix.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mdix/propcopy.git"
+  },
+  "bugs": {
+    "email": "marcdix@marcdix.de"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/propcopy",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-mocha-test": "0.7.0",
+    "grunt": "~0.4.1",
+    "should": "2.0.2"
+  },
+  "keywords": []
+}
