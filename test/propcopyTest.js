@@ -1,6 +1,6 @@
 'use strict';
 var should = require('should');
-var propcopy = require('../lib/propcopy.js');
+var propcopy = require('../src/propcopy.js');
 
 describe('', function() {
     it('is an object after the instanciation', function() {
